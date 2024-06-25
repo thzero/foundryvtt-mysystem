@@ -6,7 +6,7 @@
   "scripts": {
     "build": "vite build", 
     "dev": "vite serve", 
-    "link": "mklink /D \"./dist\" \"../foundrydata/Data/systems/mine\"", 
+    "link": "mklink /D \"./dist\" \"../foundrydata/Data/systems/mysystem\"", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

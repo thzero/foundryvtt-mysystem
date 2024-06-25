@@ -1,0 +1,44 @@
+{
+    "name": "mysystem",
+    "title": "My System",
+    "description": "Many details here.",
+    "version": "0.0.1",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "12.327",
+      "maximum": "12"
+    },
+    "scripts": [],
+    "esmodules": ["mysystem.mjs"],
+    "styles": [
+    ],
+    "packs": [
+        {
+            "name": "monsters",
+            "label": "Monsters",
+            "system": "mysystem",
+            "module": "mysystem",
+            "path": "packs/monsters.db",
+            "type": "Actor"
+        },
+        {
+            "name": "items",
+            "label": "Items",
+            "system": "mysystem",
+            "module": "mysystem",
+            "path": "packs/items.db",
+            "type": "Item"
+        }
+    ],
+    "socket": false,
+    "initiative": "1d20",
+    "grid": {
+      "distance": 1,
+      "units": "m"
+    },
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.power",
+    "url": "https://your/hosted/system/repo/",
+    "manifest": "https://your/hosted/system/repo/system.json",
+    "download": "https://your/packaged/download/archive.zip"
+}

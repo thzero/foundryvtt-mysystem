@@ -10,3 +10,4 @@ foundryconfig.json
 .idea
 docs/*
 .cache
+foundryconfig.json

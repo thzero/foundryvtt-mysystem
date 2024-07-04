@@ -6,4 +6,4 @@
 
 window.global = window; // Dependencies might need reference to the window.
 // For Development only, load the index.js.
-import './mysystem.js';
+import './mysystem.ts';

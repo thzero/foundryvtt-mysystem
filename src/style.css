@@ -1,0 +1,9 @@
+/*
+    Shim required for development only.
+
+    Production - FoundryVTT  loads style.css, as compiled by vite.
+        The import mysystem.scss line in mysystem.ts compiles those rules into style.css.
+
+    Development - FoundryVTT loads style.css, which is a no-op.
+        The mysystem.ts imports mysystem.scss directly.
+ */

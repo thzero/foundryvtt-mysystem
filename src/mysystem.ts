@@ -1,10 +1,15 @@
 /**
- * Javascript FoundryVTT entry file for mysystem.
+ * TypeScript FoundryVTT entry file for mysystem.
  */
 
 // Import msystem SCSS.
 import './mysystem.scss';
 
+import './module/index.ts';
+
+// @ts-ignore
+// import Font from 'ascii-art-font';
+// @ts-ignore
 import Font from './module/ascii-font.js';
 
 // Initialize system
@@ -12,6 +17,7 @@ Hooks.once('init', async () => {
 	console.log('mysystem | Initializing mysystem');
 
 	Font.fontPath = '/systems/mysystem/fonts/';
+	// @ts-ignore
 	Font.create(game.system.id, 'doom', function(rendered) {
 		console.log(rendered);
 	});

@@ -1,17 +1,37 @@
 {
   "name": "mine",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "version_major": 0,
+  "version_minor": 0,
+  "version_patch": 1,
+  "version_date": "07/04/2024",
   "description": "",
-  "main": "index.js",
+  "author": "thZero.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thzero/foundryvtt-mysystem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thzero/foundryvtt-mysystem/issues"
+  },
+  "homepage": "https://github.com/thzero/foundryvtt-mysystem#readme",
   "scripts": {
-    "build": "vite build", 
-    "dev": "vite serve", 
-    "link": "mklink /D \"./dist\" \"../foundrydata/Data/systems/mysystem\"", 
+    "build": "vite build",
+    "dev": "vite serve",
+    "id": "library-cli --nano",
+    "link": "gulp link",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "vite": "^5.3.1"
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "@thzero/library_cli": "^0.18.4",
+    "gulp": "^5.0.0",
+    "sass": "^1.77.6",
+    "vite": "^5.3.1",
+    "yargs": "^17.7.2"
+  },
+  "dependencies": {
+    "@thzero/library_common": "^0.18.6"
   }
 }

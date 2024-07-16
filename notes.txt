@@ -1,3 +1,10 @@
 https://bringingfire.com/blog/intro-to-foundry-module-development
 https://foundryvtt.wiki/en/development/guides/System-Development-for-Beginners/System-Development-Part-3-Breaking-Everything
 https://foundryvtt.wiki/en/development/guides/vite
+
+System.Json
+    https://foundryvtt.com/article/system-development/
+
+Data
+    https://foundryvtt.com/article/system-data-models/
+    https://foundryvtt.com/article/v10-data-model/

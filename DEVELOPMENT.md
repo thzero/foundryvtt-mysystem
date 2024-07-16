@@ -25,6 +25,23 @@ Run the following command to install all the development and runtime dependencie
 npm install
 ```
 
+### Commands
+
+The following commands are avilable
+
+* npm run build
+ * Cleans and builds the distribution files.
+* npm run clean
+ * Cleans the distribution files.
+* npm run dev
+ * Generates/updates the template.json and launches the dev server.
+* npm run generate 
+ * Generates/updates the template.json file.
+* npm run help 
+ * Help menu.
+* npm run id
+ * Generates a 21 character nanoId.
+
 ### Build
 
 Then run the build process to build the distribution files.

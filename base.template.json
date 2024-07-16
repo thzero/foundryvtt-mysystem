@@ -32,5 +32,16 @@
 			"description.value",
 			"tooltip"
 		]
-	}
+	},
+	"default": {
+		"htmlFields": [
+			"description.value",
+			"description.chat",
+			"unidentified.description"
+		]
+	},
+	"ignore": [
+		"shared",
+		"temp"
+	]
 }

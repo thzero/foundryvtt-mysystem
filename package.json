@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/thzero/foundryvtt-mysystem#readme",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite serve",
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "dev": "gulp serve",
+    "generate": "gulp generateTemplate",
+    "help": "gulp help",
     "id": "library-cli --nano",
     "link": "gulp link",
     "test": "echo \"Error: no test specified\" && exit 1"

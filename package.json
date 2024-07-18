@@ -8,6 +8,7 @@
   "description": "",
   "author": "thZero.com",
   "license": "MIT",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thzero/foundryvtt-mysystem.git"
@@ -22,21 +23,16 @@
     "dev": "gulp serve",
     "generate": "gulp generateTemplate",
     "help": "gulp help",
-    "id": "library-cli --nano",
     "link": "gulp link",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.0.3",
     "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
-    "@thzero/library_cli": "^0.18.4",
     "fs-extra": "^11.2.0",
     "gulp": "^5.0.0",
     "sass": "^1.77.6",
     "vite": "^5.3.1",
     "yargs": "^17.7.2"
-  },
-  "dependencies": {
-    "@thzero/library_common": "^0.18.6"
   }
 }

@@ -39,8 +39,6 @@ The following commands are avilable
  * Generates/updates the template.json file.
 * npm run help 
  * Help menu.
-* npm run id
- * Generates a 21 character nanoId.
 
 ### Build
 

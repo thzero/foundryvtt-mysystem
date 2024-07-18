@@ -10,4 +10,5 @@ foundryconfig.json
 .idea
 docs/*
 .cache
+suggestions/*
 foundryconfig.json

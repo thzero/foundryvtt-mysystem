@@ -147,7 +147,6 @@ export async function help() {
 	console.log('\tnpm run dev\t\t - Generates/updates the template.json and launches the dev server.');
 	console.log('\tnpm run generate\t - Generates/updates the template.json file.');
 	console.log('\tnpm run help\t\t - Help menu.');
-	console.log('\tnpm run id\t\t - Generates a 21 character nanoId.');
 	console.log('-----------');
 }
 

@@ -7,6 +7,8 @@ import './mysystem.scss';
 
 import './module/index.ts';
 
+import { Logger } from './module/Logger.ts';
+
 // @ts-ignore
 // import Font from 'ascii-art-font';
 // @ts-ignore
@@ -14,7 +16,9 @@ import Font from './module/ascii-font.js';
 
 // Initialize system
 Hooks.once('init', async () => {
-	console.log('mysystem | Initializing mysystem');
+	console.log(`${game.system.id} | Initializing ${game.system.id}`);
+
+	Logger.info('asdfasdfasdf');
 
 	Font.fontPath = '/systems/mysystem/fonts/';
 	// @ts-ignore
@@ -46,6 +50,17 @@ Hooks.once('ready', async () => {
 //	 await handleMigrations();
 //	 sendDevMessages();
 //	 await importDocuments();
+
+
+Logger.info('asdfasdfasdf');
+Logger.info('asdfasdfasdf');
+Logger.info('asdfasdfasdf');
+Logger.info('asdfasdfasdf');
+Logger.info('asdfasdfasdf');
+Logger.info('asdfasdfasdf');
+Logger.info('asdfasdfasdf');
+Logger.info('asdfasdfasdf');
+ui.notifications.info('hi');
 });
 
 // Add any additional hooks if necessary
